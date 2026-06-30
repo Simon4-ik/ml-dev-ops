@@ -1,0 +1,13 @@
+# AI & Conversion Libraries
+torch
+torchvision
+onnx
+ultralytics
+onnxscript
+
+# Client & Server Interaction
+tritonclient[http]
+Pillow
+numpy
+requests
+opencv-python

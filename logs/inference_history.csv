@@ -1,0 +1,604 @@
+Model Name,Image,Prediction,Confidence,Latency
+resnet50_onnx,street.jpg,minibus,0.9548,0.1675
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.1330
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0715
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0758
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0791
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0582
+resnet50_notonnx,street.jpg,minibus,0.9548,0.2124
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1148
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1420
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1362
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1140
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1345
+yolo_onnx,street.jpg,bus,0.9115,0.1247
+yolo_onnx,Epic.jpg,person,0.6270,0.1036
+yolo_onnx,cat.jpg,cat,0.8799,0.2993
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0811
+yolo_onnx,zidane.jpg,person,0.8248,0.0870
+yolo_onnx,bus.jpg,bus,0.9070,0.1157
+yolo_notonnx,street.jpg,bus,0.9115,0.3245
+yolo_notonnx,Epic.jpg,person,0.6270,0.2837
+yolo_notonnx,cat.jpg,cat,0.8799,0.2573
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2841
+yolo_notonnx,zidane.jpg,person,0.8248,0.2816
+yolo_notonnx,bus.jpg,bus,0.9070,0.2465
+resnet50_onnx,street.jpg,minibus,0.9548,0.0906
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0664
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0591
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.1005
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0615
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0590
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1882
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1709
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.0828
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1342
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.0907
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.0930
+yolo_onnx,street.jpg,bus,0.9115,0.1252
+yolo_onnx,Epic.jpg,person,0.6270,0.1119
+yolo_onnx,cat.jpg,cat,0.8799,0.0855
+yolo_onnx,pizza.jpg,pizza,0.9178,0.1040
+yolo_onnx,zidane.jpg,person,0.8248,0.0706
+yolo_onnx,bus.jpg,bus,0.9070,0.0788
+yolo_notonnx,street.jpg,bus,0.9115,0.3414
+yolo_notonnx,Epic.jpg,person,0.6270,0.2815
+yolo_notonnx,cat.jpg,cat,0.8799,0.3979
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2492
+yolo_notonnx,zidane.jpg,person,0.8248,0.3006
+yolo_notonnx,bus.jpg,bus,0.9070,0.3618
+resnet50_onnx,street.jpg,minibus,0.9548,0.0822
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0758
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0914
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0564
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0567
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0565
+resnet50_notonnx,street.jpg,minibus,0.9548,0.2014
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1559
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.0878
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.0888
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.0826
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1163
+yolo_onnx,street.jpg,bus,0.9115,0.0797
+yolo_onnx,Epic.jpg,person,0.6270,0.0822
+yolo_onnx,cat.jpg,cat,0.8799,0.0812
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0774
+yolo_onnx,zidane.jpg,person,0.8248,0.0776
+yolo_onnx,bus.jpg,bus,0.9070,0.0850
+yolo_notonnx,street.jpg,bus,0.9115,0.3395
+yolo_notonnx,Epic.jpg,person,0.6270,0.3600
+yolo_notonnx,cat.jpg,cat,0.8799,0.2653
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2776
+yolo_notonnx,zidane.jpg,person,0.8248,0.3001
+yolo_notonnx,bus.jpg,bus,0.9070,0.2524
+resnet50_onnx,street.jpg,minibus,0.9548,0.0724
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0757
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0601
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0568
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0546
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0727
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1637
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1275
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1222
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1041
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1032
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1351
+yolo_onnx,street.jpg,bus,0.9115,0.0671
+yolo_onnx,Epic.jpg,person,0.6270,0.0694
+yolo_onnx,cat.jpg,cat,0.8799,0.0850
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0751
+yolo_onnx,zidane.jpg,person,0.8248,0.0712
+yolo_onnx,bus.jpg,bus,0.9070,0.0737
+yolo_notonnx,street.jpg,bus,0.9115,0.2553
+yolo_notonnx,Epic.jpg,person,0.6270,0.2555
+yolo_notonnx,cat.jpg,cat,0.8799,0.2626
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2345
+yolo_notonnx,zidane.jpg,person,0.8248,0.2247
+yolo_notonnx,bus.jpg,bus,0.9070,0.2338
+resnet50_onnx,street.jpg,minibus,0.9548,0.0695
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0636
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0570
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0614
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0546
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0591
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1019
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1159
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1948
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1589
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1095
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1420
+yolo_onnx,street.jpg,bus,0.9115,0.0691
+yolo_onnx,Epic.jpg,person,0.6270,0.0894
+yolo_onnx,cat.jpg,cat,0.8799,0.0744
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0843
+yolo_onnx,zidane.jpg,person,0.8248,0.0922
+yolo_onnx,bus.jpg,bus,0.9070,0.1568
+yolo_notonnx,street.jpg,bus,0.9115,0.2717
+yolo_notonnx,Epic.jpg,person,0.6270,0.3611
+yolo_notonnx,cat.jpg,cat,0.8799,0.2425
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2415
+yolo_notonnx,zidane.jpg,person,0.8248,0.2366
+yolo_notonnx,bus.jpg,bus,0.9070,0.2401
+resnet50_onnx,street.jpg,minibus,0.9548,0.0734
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0736
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0576
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0809
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0694
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0644
+resnet50_notonnx,street.jpg,minibus,0.9548,0.2101
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1641
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1119
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1173
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1136
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1499
+yolo_onnx,street.jpg,bus,0.9115,0.1223
+yolo_onnx,Epic.jpg,person,0.6270,0.1037
+yolo_onnx,cat.jpg,cat,0.8799,0.0862
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0821
+yolo_onnx,zidane.jpg,person,0.8248,0.0820
+yolo_onnx,bus.jpg,bus,0.9070,0.0924
+yolo_notonnx,street.jpg,bus,0.9115,0.3443
+yolo_notonnx,Epic.jpg,person,0.6270,0.3785
+yolo_notonnx,cat.jpg,cat,0.8799,0.2495
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2374
+yolo_notonnx,zidane.jpg,person,0.8248,0.2664
+yolo_notonnx,bus.jpg,bus,0.9070,0.2560
+resnet50_onnx,street.jpg,minibus,0.9548,0.1516
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.1099
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0863
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0633
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0562
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0549
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1462
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1162
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.0990
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.2279
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1237
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.0977
+yolo_onnx,street.jpg,bus,0.9115,0.1275
+yolo_onnx,Epic.jpg,person,0.6270,0.1184
+yolo_onnx,cat.jpg,cat,0.8799,0.0737
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0692
+yolo_onnx,zidane.jpg,person,0.8248,0.0766
+yolo_onnx,bus.jpg,bus,0.9070,0.0809
+yolo_notonnx,street.jpg,bus,0.9115,0.2604
+yolo_notonnx,Epic.jpg,person,0.6270,0.3016
+yolo_notonnx,cat.jpg,cat,0.8799,0.2670
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2909
+yolo_notonnx,zidane.jpg,person,0.8248,0.4887
+yolo_notonnx,bus.jpg,bus,0.9070,0.2763
+resnet50_onnx,street.jpg,minibus,0.9548,0.0656
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0579
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0541
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0560
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0588
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0579
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1179
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1063
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1581
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1286
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1231
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1062
+yolo_onnx,street.jpg,bus,0.9115,0.0820
+yolo_onnx,Epic.jpg,person,0.6270,0.0912
+yolo_onnx,cat.jpg,cat,0.8799,0.0842
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0814
+yolo_onnx,zidane.jpg,person,0.8248,0.0896
+yolo_onnx,bus.jpg,bus,0.9070,0.0862
+yolo_notonnx,street.jpg,bus,0.9115,0.2501
+yolo_notonnx,Epic.jpg,person,0.6270,0.2467
+yolo_notonnx,cat.jpg,cat,0.8799,0.2427
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2318
+yolo_notonnx,zidane.jpg,person,0.8248,0.2426
+yolo_notonnx,bus.jpg,bus,0.9070,0.2466
+resnet50_onnx,street.jpg,minibus,0.9548,0.0830
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0751
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0669
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0554
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0594
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0987
+resnet50_onnx,street.jpg,minibus,0.9548,0.0701
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0620
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0816
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0618
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0599
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0599
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1839
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1138
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.0854
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.0816
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.0989
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1115
+yolo_onnx,street.jpg,bus,0.9115,0.0888
+yolo_onnx,Epic.jpg,person,0.6270,0.0942
+yolo_onnx,cat.jpg,cat,0.8799,0.0814
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0762
+yolo_onnx,zidane.jpg,person,0.8248,0.0752
+yolo_onnx,bus.jpg,bus,0.9070,0.0742
+yolo_notonnx,street.jpg,bus,0.9115,0.4624
+yolo_notonnx,Epic.jpg,person,0.6270,0.3209
+yolo_notonnx,cat.jpg,cat,0.8799,0.2462
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2608
+yolo_notonnx,zidane.jpg,person,0.8248,0.2426
+yolo_notonnx,bus.jpg,bus,0.9070,0.3939
+resnet50_onnx,street.jpg,minibus,0.9548,0.0827
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0730
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0643
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0558
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0577
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0586
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1679
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1336
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1668
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.0856
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1197
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.0825
+yolo_onnx,street.jpg,bus,0.9115,0.0836
+yolo_onnx,Epic.jpg,person,0.6270,0.0964
+yolo_onnx,cat.jpg,cat,0.8799,0.0721
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0994
+yolo_onnx,zidane.jpg,person,0.8248,0.0758
+yolo_onnx,bus.jpg,bus,0.9070,0.0771
+yolo_notonnx,street.jpg,bus,0.9115,0.3158
+yolo_notonnx,Epic.jpg,person,0.6270,0.2942
+yolo_notonnx,cat.jpg,cat,0.8799,0.2464
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2677
+yolo_notonnx,zidane.jpg,person,0.8248,0.2366
+yolo_notonnx,bus.jpg,bus,0.9070,0.2327
+resnet50_onnx,street.jpg,minibus,0.9548,0.1072
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0750
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0650
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0618
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0654
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0605
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1903
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1564
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.0806
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.0846
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1522
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.0732
+yolo_onnx,street.jpg,bus,0.9115,0.0810
+yolo_onnx,Epic.jpg,person,0.6270,0.0685
+yolo_onnx,cat.jpg,cat,0.8799,0.0703
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0767
+yolo_onnx,zidane.jpg,person,0.8248,0.0711
+yolo_onnx,bus.jpg,bus,0.9070,0.0708
+yolo_notonnx,street.jpg,bus,0.9115,0.3282
+yolo_notonnx,Epic.jpg,person,0.6270,0.2838
+yolo_notonnx,cat.jpg,cat,0.8799,0.2512
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2365
+yolo_notonnx,zidane.jpg,person,0.8248,0.2698
+yolo_notonnx,bus.jpg,bus,0.9070,0.2382
+resnet50_onnx,street.jpg,minibus,0.9548,0.0680
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0695
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0712
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0644
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0644
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0603
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1149
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1153
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1068
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1120
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1165
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1340
+yolo_onnx,street.jpg,bus,0.9115,0.0780
+yolo_onnx,Epic.jpg,person,0.6270,0.0710
+yolo_onnx,cat.jpg,cat,0.8799,0.0776
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0786
+yolo_onnx,zidane.jpg,person,0.8248,0.0735
+yolo_onnx,bus.jpg,bus,0.9070,0.0688
+yolo_notonnx,street.jpg,bus,0.9115,0.2376
+yolo_notonnx,Epic.jpg,person,0.6270,0.2549
+yolo_notonnx,cat.jpg,cat,0.8799,0.2476
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1119
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1019
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1283
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1407
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1140
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.3156
+yolo_onnx,street.jpg,bus,0.9115,0.0765
+yolo_onnx,Epic.jpg,person,0.6270,0.0810
+yolo_onnx,cat.jpg,cat,0.8799,0.0782
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0682
+yolo_onnx,zidane.jpg,person,0.8248,0.0714
+yolo_onnx,bus.jpg,bus,0.9070,0.0693
+yolo_notonnx,street.jpg,bus,0.9115,0.2395
+yolo_notonnx,Epic.jpg,person,0.6270,0.2446
+yolo_notonnx,cat.jpg,cat,0.8799,0.2647
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2503
+yolo_notonnx,zidane.jpg,person,0.8248,0.2704
+yolo_notonnx,bus.jpg,bus,0.9070,0.2456
+resnet50_onnx,street.jpg,minibus,0.9548,0.1348
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.1307
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0702
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0567
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0554
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0705
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1636
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.0942
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1423
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.0976
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.1037
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.1642
+yolo_onnx,street.jpg,bus,0.9115,0.1004
+yolo_onnx,Epic.jpg,person,0.6270,0.0968
+yolo_onnx,cat.jpg,cat,0.8799,0.0815
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0814
+yolo_onnx,zidane.jpg,person,0.8248,0.0748
+yolo_onnx,bus.jpg,bus,0.9070,0.0673
+yolo_notonnx,street.jpg,bus,0.9115,0.3161
+yolo_notonnx,Epic.jpg,person,0.6270,0.2657
+yolo_notonnx,cat.jpg,cat,0.8799,0.2718
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2929
+yolo_notonnx,zidane.jpg,person,0.8248,0.2346
+yolo_notonnx,bus.jpg,bus,0.9070,0.2569
+resnet50_onnx,street.jpg,minibus,0.9548,0.0887
+resnet50_onnx,batya.jpg,desk,0.1379,0.0731
+resnet50_onnx,cafe.jpg,dining table,0.6431,0.0623
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0941
+resnet50_onnx,hall.jpg,cinema,0.2461,0.1081
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0962
+resnet50_onnx,kitchen.jpg,wardrobe,0.6246,0.0600
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0643
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0629
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0613
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1741
+resnet50_notonnx,batya.jpg,desk,0.1379,0.1384
+resnet50_notonnx,cafe.jpg,dining table,0.6431,0.2223
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1021
+resnet50_notonnx,hall.jpg,cinema,0.2461,0.0918
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.1009
+resnet50_notonnx,kitchen.jpg,wardrobe,0.6246,0.1024
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.1208
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.0949
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.0940
+yolo_onnx,street.jpg,bus,0.9115,0.0940
+yolo_onnx,batya.jpg,person,0.9039,0.0943
+yolo_onnx,cafe.jpg,chair,0.9191,0.0823
+yolo_onnx,Epic.jpg,person,0.6270,0.0873
+yolo_onnx,hall.jpg,person,0.7959,0.0729
+yolo_onnx,cat.jpg,cat,0.8799,0.0736
+yolo_onnx,kitchen.jpg,cup,0.4199,0.0888
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0714
+yolo_onnx,zidane.jpg,person,0.8248,0.0791
+yolo_onnx,bus.jpg,bus,0.9070,0.0757
+yolo_notonnx,street.jpg,bus,0.9115,0.3258
+yolo_notonnx,batya.jpg,person,0.9039,0.2966
+yolo_notonnx,cafe.jpg,chair,0.9191,0.2985
+yolo_notonnx,Epic.jpg,person,0.6270,0.2742
+yolo_notonnx,hall.jpg,person,0.7959,0.2712
+yolo_notonnx,cat.jpg,cat,0.8799,0.2742
+yolo_notonnx,kitchen.jpg,cup,0.4199,0.2465
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2822
+yolo_notonnx,zidane.jpg,person,0.8248,0.2593
+yolo_notonnx,bus.jpg,bus,0.9070,0.3128
+resnet50_onnx,street.jpg,minibus,0.9548,0.0711
+resnet50_onnx,batya.jpg,desk,0.1379,0.0638
+resnet50_onnx,cafe.jpg,dining table,0.6431,0.0655
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0676
+resnet50_onnx,hall.jpg,cinema,0.2461,0.0672
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0604
+resnet50_onnx,kitchen.jpg,wardrobe,0.6246,0.0659
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.1077
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0647
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0612
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1507
+resnet50_notonnx,batya.jpg,desk,0.1379,0.1161
+resnet50_notonnx,cafe.jpg,dining table,0.6431,0.0929
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.0823
+resnet50_notonnx,hall.jpg,cinema,0.2461,0.1172
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.0915
+resnet50_notonnx,kitchen.jpg,wardrobe,0.6246,0.0818
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.0953
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.0837
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.0810
+yolo_onnx,street.jpg,bus,0.9115,0.0916
+yolo_onnx,batya.jpg,person,0.9039,0.0804
+yolo_onnx,cafe.jpg,chair,0.9191,0.0798
+yolo_onnx,Epic.jpg,person,0.6270,0.0873
+yolo_onnx,hall.jpg,person,0.7959,0.0744
+yolo_onnx,cat.jpg,cat,0.8799,0.0722
+yolo_onnx,kitchen.jpg,cup,0.4199,0.0706
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0710
+yolo_onnx,zidane.jpg,person,0.8248,0.0822
+yolo_onnx,bus.jpg,bus,0.9070,0.0681
+yolo_notonnx,street.jpg,bus,0.9115,0.3475
+yolo_notonnx,batya.jpg,person,0.9039,0.3044
+yolo_notonnx,cafe.jpg,chair,0.9191,0.2534
+yolo_notonnx,Epic.jpg,person,0.6270,0.2389
+yolo_notonnx,hall.jpg,person,0.7959,0.2515
+yolo_notonnx,cat.jpg,cat,0.8799,0.2461
+yolo_notonnx,kitchen.jpg,cup,0.4199,0.2425
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2475
+yolo_notonnx,zidane.jpg,person,0.8248,0.2504
+yolo_notonnx,bus.jpg,bus,0.9070,0.2590
+resnet50_onnx,street.jpg,minibus,0.9548,0.0723
+resnet50_onnx,batya.jpg,desk,0.1379,0.0678
+resnet50_onnx,cafe.jpg,dining table,0.6431,0.0660
+resnet50_onnx,Epic.jpg,toyshop,0.3405,0.0769
+resnet50_onnx,hall.jpg,cinema,0.2461,0.0801
+resnet50_onnx,cat.jpg,tiger cat,0.6837,0.0982
+resnet50_onnx,kitchen.jpg,wardrobe,0.6246,0.0530
+resnet50_onnx,pizza.jpg,pizza,0.9972,0.0623
+resnet50_onnx,zidane.jpg,suit,0.8285,0.0542
+resnet50_onnx,bus.jpg,minibus,0.9594,0.0600
+resnet50_notonnx,street.jpg,minibus,0.9548,0.1474
+resnet50_notonnx,batya.jpg,desk,0.1379,0.1204
+resnet50_notonnx,cafe.jpg,dining table,0.6431,0.1024
+resnet50_notonnx,Epic.jpg,toyshop,0.3405,0.1248
+resnet50_notonnx,hall.jpg,cinema,0.2461,0.0938
+resnet50_notonnx,cat.jpg,tiger cat,0.6837,0.0954
+resnet50_notonnx,kitchen.jpg,wardrobe,0.6246,0.1053
+resnet50_notonnx,pizza.jpg,pizza,0.9972,0.0872
+resnet50_notonnx,zidane.jpg,suit,0.8285,0.0814
+resnet50_notonnx,bus.jpg,minibus,0.9594,0.0810
+yolo_onnx,street.jpg,bus,0.9115,0.0867
+yolo_onnx,batya.jpg,person,0.9039,0.0754
+yolo_onnx,cafe.jpg,chair,0.9191,0.0793
+yolo_onnx,Epic.jpg,person,0.6270,0.0837
+yolo_onnx,hall.jpg,person,0.7959,0.0718
+yolo_onnx,cat.jpg,cat,0.8799,0.0834
+yolo_onnx,kitchen.jpg,cup,0.4199,0.0800
+yolo_onnx,pizza.jpg,pizza,0.9178,0.0774
+yolo_onnx,zidane.jpg,person,0.8248,0.0807
+yolo_onnx,bus.jpg,bus,0.9070,0.0788
+yolo_notonnx,street.jpg,bus,0.9115,0.3657
+yolo_notonnx,batya.jpg,person,0.9039,0.3082
+yolo_notonnx,cafe.jpg,chair,0.9191,0.2586
+yolo_notonnx,Epic.jpg,person,0.6270,0.2708
+yolo_notonnx,hall.jpg,person,0.7959,0.2638
+yolo_notonnx,cat.jpg,cat,0.8799,0.2478
+yolo_notonnx,kitchen.jpg,cup,0.4199,0.2666
+yolo_notonnx,pizza.jpg,pizza,0.9178,0.2333
+yolo_notonnx,zidane.jpg,person,0.8248,0.2699
+yolo_notonnx,bus.jpg,bus,0.9070,0.2494
+resnet50_onnx,img1.jpg,minibus,0.9680,3.0095
+resnet50_onnx,img10.jpg,orange,0.8080,0.0283
+resnet50_onnx,img2.jpg,suit,0.8120,0.0159
+resnet50_onnx,img3.jpg,bath towel,0.2682,0.0170
+resnet50_onnx,img4.jpg,baboon,0.5661,0.0155
+resnet50_onnx,img5.jpg,lemon,0.8838,0.0146
+resnet50_onnx,img6.jpg,monarch,0.6632,0.0149
+resnet50_onnx,img7.jpg,jigsaw puzzle,0.3104,0.0147
+resnet50_onnx,img8.jpg,soccer ball,0.9756,0.0150
+resnet50_onnx,img9.jpg,planetarium,0.7225,0.0152
+resnet50_notonnx,img1.jpg,minibus,0.9680,0.7248
+resnet50_notonnx,img10.jpg,orange,0.8080,0.0741
+resnet50_notonnx,img2.jpg,suit,0.8120,0.0206
+resnet50_notonnx,img3.jpg,bath towel,0.2682,0.0165
+resnet50_notonnx,img4.jpg,baboon,0.5661,0.0207
+resnet50_notonnx,img5.jpg,lemon,0.8838,0.0282
+resnet50_notonnx,img6.jpg,monarch,0.6632,0.0159
+resnet50_notonnx,img7.jpg,jigsaw puzzle,0.3104,0.0227
+resnet50_notonnx,img8.jpg,soccer ball,0.9756,0.0178
+resnet50_notonnx,img9.jpg,planetarium,0.7225,0.0267
+yolo_onnx,img1.jpg,bus,0.9112,4.6461
+yolo_onnx,img10.jpg,cat,0.4294,0.0492
+yolo_onnx,img2.jpg,person,0.8403,0.0355
+yolo_onnx,img3.jpg,person,0.6535,0.0553
+yolo_onnx,img4.jpg,person,0.6863,0.0337
+yolo_onnx,img5.jpg,orange,0.8696,0.0407
+yolo_onnx,img6.jpg,None,0.0000,0.0341
+yolo_onnx,img7.jpg,None,0.0000,0.0402
+yolo_onnx,img8.jpg,person,0.9155,0.0358
+yolo_onnx,img9.jpg,car,0.4617,0.0345
+yolo_notonnx,img1.jpg,bus,0.9112,1.8981
+yolo_notonnx,img10.jpg,cat,0.4294,1.1346
+yolo_notonnx,img2.jpg,person,0.8403,0.0815
+yolo_notonnx,img3.jpg,person,0.6535,0.0696
+yolo_notonnx,img4.jpg,person,0.6863,0.0881
+yolo_notonnx,img5.jpg,orange,0.8696,0.1114
+yolo_notonnx,img6.jpg,None,0.0000,0.0674
+yolo_notonnx,img7.jpg,None,0.0000,0.0676
+yolo_notonnx,img8.jpg,person,0.9155,0.0612
+yolo_notonnx,img9.jpg,car,0.4617,0.0639
+resnet50_onnx,img1.jpg,minibus,0.9680,3.6430
+resnet50_onnx,img10.jpg,orange,0.8080,0.0196
+resnet50_onnx,img2.jpg,suit,0.8120,0.0175
+resnet50_onnx,img3.jpg,bath towel,0.2682,0.0151
+resnet50_onnx,img4.jpg,baboon,0.5661,0.0164
+resnet50_onnx,img5.jpg,lemon,0.8838,0.0151
+resnet50_onnx,img6.jpg,monarch,0.6632,0.0161
+resnet50_onnx,img7.jpg,jigsaw puzzle,0.3104,0.0144
+resnet50_onnx,img8.jpg,soccer ball,0.9756,0.0159
+resnet50_onnx,img9.jpg,planetarium,0.7225,0.0148
+resnet50_notonnx,img1.jpg,minibus,0.9680,0.4930
+resnet50_notonnx,img10.jpg,orange,0.8080,0.0615
+resnet50_notonnx,img2.jpg,suit,0.8120,0.0164
+resnet50_notonnx,img3.jpg,bath towel,0.2682,0.0166
+resnet50_notonnx,img4.jpg,baboon,0.5661,0.0169
+resnet50_notonnx,img5.jpg,lemon,0.8838,0.0159
+resnet50_notonnx,img6.jpg,monarch,0.6632,0.0229
+resnet50_notonnx,img7.jpg,jigsaw puzzle,0.3104,0.0160
+resnet50_notonnx,img8.jpg,soccer ball,0.9756,0.0155
+resnet50_notonnx,img9.jpg,planetarium,0.7225,0.0160
+yolo_notonnx,img1.jpg,bus,0.9112,0.8661
+yolo_notonnx,img10.jpg,cat,0.4294,1.0304
+yolo_notonnx,img2.jpg,person,0.8403,0.0676
+yolo_notonnx,img3.jpg,person,0.6535,0.0650
+yolo_notonnx,img4.jpg,person,0.6863,0.0483
+yolo_notonnx,img5.jpg,orange,0.8696,0.0525
+yolo_notonnx,img6.jpg,None,0.0000,0.0475
+yolo_notonnx,img7.jpg,None,0.0000,0.0497
+yolo_notonnx,img8.jpg,person,0.9155,0.0484
+yolo_notonnx,img9.jpg,car,0.4617,0.0548
+resnet50_onnx,img1.jpg,minibus,0.9680,0.3687
+resnet50_onnx,img10.jpg,orange,0.8080,0.1026
+resnet50_onnx,img2.jpg,suit,0.8120,0.0242
+resnet50_onnx,img3.jpg,bath towel,0.2682,0.0176
+resnet50_onnx,img4.jpg,baboon,0.5661,0.0248
+resnet50_onnx,img5.jpg,lemon,0.8838,0.0179
+resnet50_onnx,img6.jpg,monarch,0.6632,0.0173
+resnet50_onnx,img7.jpg,jigsaw puzzle,0.3104,0.0205
+resnet50_onnx,img8.jpg,soccer ball,0.9756,0.0174
+resnet50_onnx,img9.jpg,planetarium,0.7225,0.0169
+resnet50_notonnx,img1.jpg,minibus,0.9680,0.2380
+resnet50_notonnx,img10.jpg,orange,0.8080,0.0206
+resnet50_notonnx,img2.jpg,suit,0.8120,0.0177
+resnet50_notonnx,img3.jpg,bath towel,0.2682,0.0204
+resnet50_notonnx,img4.jpg,baboon,0.5661,0.0177
+resnet50_notonnx,img5.jpg,lemon,0.8838,0.0178
+resnet50_notonnx,img6.jpg,monarch,0.6632,0.0175
+resnet50_notonnx,img7.jpg,jigsaw puzzle,0.3104,0.0180
+resnet50_notonnx,img8.jpg,soccer ball,0.9756,0.0195
+resnet50_notonnx,img9.jpg,planetarium,0.7225,0.0173
+yolo_onnx,img1.jpg,bus,0.9112,4.5378
+yolo_onnx,img10.jpg,cat,0.4294,0.0722
+yolo_onnx,img2.jpg,person,0.8403,0.0693
+yolo_onnx,img3.jpg,person,0.6535,0.0715
+yolo_onnx,img4.jpg,person,0.6863,0.0881
+yolo_onnx,img5.jpg,orange,0.8696,0.0711
+yolo_onnx,img6.jpg,None,0.0000,0.0945
+yolo_onnx,img7.jpg,None,0.0000,0.0508
+yolo_onnx,img8.jpg,person,0.9155,0.1169
+yolo_onnx,img9.jpg,car,0.4617,0.0317
+yolo_notonnx,img1.jpg,bus,0.9112,0.5620
+yolo_notonnx,img10.jpg,cat,0.4294,0.0683
+yolo_notonnx,img2.jpg,person,0.8403,0.0461
+yolo_notonnx,img3.jpg,person,0.6535,0.0371
+yolo_notonnx,img4.jpg,person,0.6863,0.0434
+yolo_notonnx,img5.jpg,orange,0.8696,0.0381
+yolo_notonnx,img6.jpg,None,0.0000,0.0350
+yolo_notonnx,img7.jpg,None,0.0000,0.0364
+yolo_notonnx,img8.jpg,person,0.9155,0.0358
+yolo_notonnx,img9.jpg,car,0.4617,0.0355
+resnet50_onnx,img1.jpg,minibus,0.9680,4.0546
+resnet50_onnx,img10.jpg,orange,0.8080,0.0437
+resnet50_onnx,img2.jpg,suit,0.8120,0.0380
+resnet50_onnx,img3.jpg,bath towel,0.2682,0.0495
+resnet50_onnx,img4.jpg,baboon,0.5661,0.0185
+resnet50_onnx,img5.jpg,lemon,0.8838,0.0485
+resnet50_onnx,img6.jpg,monarch,0.6632,0.0545
+resnet50_onnx,img7.jpg,jigsaw puzzle,0.3104,0.0965
+resnet50_onnx,img8.jpg,soccer ball,0.9756,0.0616
+resnet50_onnx,img9.jpg,planetarium,0.7225,0.1326
+resnet50_notonnx,img1.jpg,minibus,0.9680,0.6106
+resnet50_notonnx,img10.jpg,orange,0.8080,0.1120
+resnet50_notonnx,img2.jpg,suit,0.8120,0.0318
+resnet50_notonnx,img3.jpg,bath towel,0.2682,0.0323
+resnet50_notonnx,img4.jpg,baboon,0.5661,0.0312
+resnet50_notonnx,img5.jpg,lemon,0.8838,0.0318
+resnet50_notonnx,img6.jpg,monarch,0.6632,0.0314
+resnet50_notonnx,img7.jpg,jigsaw puzzle,0.3104,0.0327
+resnet50_notonnx,img8.jpg,soccer ball,0.9756,0.0309
+resnet50_notonnx,img9.jpg,planetarium,0.7225,0.0315
+yolo_onnx,img1.jpg,bus,0.9112,4.5369
+yolo_onnx,img10.jpg,cat,0.4294,0.1200
+yolo_onnx,img2.jpg,person,0.8403,0.0706
+yolo_onnx,img3.jpg,person,0.6535,0.0658
+yolo_onnx,img4.jpg,person,0.6863,0.0413
+yolo_onnx,img5.jpg,orange,0.8696,0.1343
+yolo_onnx,img6.jpg,None,0.0000,0.0672
+yolo_onnx,img7.jpg,None,0.0000,0.0648
+yolo_onnx,img8.jpg,person,0.9155,0.0664
+yolo_onnx,img9.jpg,car,0.4617,0.0698
+yolo_notonnx,img1.jpg,bus,0.9112,0.6900
+yolo_notonnx,img10.jpg,cat,0.4294,1.3040
+yolo_notonnx,img2.jpg,person,0.8403,0.0617
+yolo_notonnx,img3.jpg,person,0.6535,0.1391
+yolo_notonnx,img4.jpg,person,0.6863,0.0915
+yolo_notonnx,img5.jpg,orange,0.8696,0.0990
+yolo_notonnx,img6.jpg,None,0.0000,0.0681
+yolo_notonnx,img7.jpg,None,0.0000,0.0907
+yolo_notonnx,img8.jpg,person,0.9155,0.0684
+yolo_notonnx,img9.jpg,car,0.4617,0.0650
