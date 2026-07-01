@@ -37,6 +37,13 @@ make setup
 ```
 *What this does:* Creates a virtual environment in `/opt/ml-dev-ops-venv` (or locally) and installs deep learning tools (`torch`, `onnx`, `ultralytics`, etc.) for exporting models and running the client.
 
+#### Configure Environment (Optional)
+You can customize container names, ports, and model directories by copying `.env.example` to `.env` and editing the values:
+```bash
+cp .env.example .env
+```
+Both the `Makefile` and `deployment/run_triton.sh` script will automatically load and apply these environment variables.
+
 ### 2. Export the Deep Learning Models
 Download pretrained weights and export them into formats optimized for Triton (ONNX and TorchScript):
 ```bash
@@ -67,6 +74,12 @@ make load-models
 Run the test suite to execute batch predictions on sample images:
 ```bash
 make infer
+```
+
+#### Run Unit Tests
+To run the client unit tests (verifying preprocessing, postprocessing, and logging):
+```bash
+make test
 ```
 
 ---

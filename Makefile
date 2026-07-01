@@ -17,24 +17,27 @@
 #   make quickstart     Full end-to-end: setup + export + build + up + load + infer
 # =============================================================================
 
+-include .env
+
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-IMAGE_NAME     := triton-cv
-TRITON_NAME    := triton-cv
-PROM_NAME      := prometheus-mon
-GRAF_NAME      := grafana-viz
+IMAGE_NAME     ?= triton-cv
+TRITON_NAME    ?= triton-cv
+PROM_NAME      ?= prometheus-mon
+GRAF_NAME      ?= grafana-viz
 
-MODELS_DIR     := $(shell pwd)/models
-MONITORING_DIR := $(shell pwd)/monitoring
+MODELS_DIR     ?= $(shell pwd)/models
+MONITORING_DIR ?= $(shell pwd)/monitoring
 
-HTTP_PORT      := 8000
-GRPC_PORT      := 8001
-METRICS_PORT   := 8002
-PROM_PORT      := 9090
-GRAF_PORT      := 3000
+HTTP_PORT      ?= 8000
+GRPC_PORT      ?= 8001
+METRICS_PORT   ?= 8002
+PROM_PORT      ?= 9090
+GRAF_PORT      ?= 3000
 
-TRITON_URL     := localhost:$(HTTP_PORT)
+TRITON_URL     ?= localhost:$(HTTP_PORT)
+export TRITON_URL
 
 # Virtual environment stored in WSL native filesystem (avoids /mnt/c space limits)
 # Override with: make setup VENV=/path/to/venv
@@ -69,7 +72,7 @@ endif
         load-yolo-onnx load-yolo-notonnx \
         unload-resnet50-onnx unload-resnet50-notonnx \
         unload-yolo-onnx unload-yolo-notonnx \
-        infer benchmark logs status clean quickstart
+        infer benchmark test logs status clean quickstart
 
 # ===========================================================================
 # HELP
@@ -263,6 +266,10 @@ infer:
 	@echo "Done. Results saved to logs/inference_history.csv"
 
 benchmark: infer
+
+test:
+	@echo "--- Running unit tests ---"
+	$(VENV_PYTHON) -m unittest discover -s client -p "test_*.py"
 
 # ===========================================================================
 # OBSERVABILITY

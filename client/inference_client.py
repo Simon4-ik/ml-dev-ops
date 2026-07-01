@@ -134,7 +134,8 @@ class TritonInferenceClient:
 
 # --- MAIN EXECUTION LOOP ---
 if __name__ == "__main__":
-    triton = TritonInferenceClient()
+    triton_url = os.getenv("TRITON_URL", "localhost:8000")
+    triton = TritonInferenceClient(url=triton_url)
     models = ["resnet50_onnx", "resnet50_notonnx", "yolo_onnx", "yolo_notonnx"]
     image_dir = "client/samples"
     

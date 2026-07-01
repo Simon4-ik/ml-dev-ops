@@ -1,10 +1,22 @@
 #!/bin/bash
 set -e
 
-NAME="triton-cv"
-MODEL_REPOSITORY="$(pwd)/models"
-PROM_CONTAINER="prometheus-mon"
-GRAF_CONTAINER="grafana-viz"
+# Load environment variables from .env if present
+if [ -f .env ]; then
+  echo "--- Loading .env file ---"
+  export $(grep -v '^#' .env | xargs)
+fi
+
+NAME="${NAME:-triton-cv}"
+MODEL_REPOSITORY="${MODEL_REPOSITORY:-$(pwd)/models}"
+PROM_CONTAINER="${PROM_CONTAINER:-prometheus-mon}"
+GRAF_CONTAINER="${GRAF_CONTAINER:-grafana-viz}"
+
+HTTP_PORT="${HTTP_PORT:-8000}"
+GRPC_PORT="${GRPC_PORT:-8001}"
+METRICS_PORT="${METRICS_PORT:-8002}"
+PROM_PORT="${PROM_PORT:-9090}"
+GRAF_PORT="${GRAF_PORT:-3000}"
 
 echo "================================================================"
 echo "🛑 STEP 0: Cleaning up old containers..."
@@ -26,17 +38,17 @@ echo "================================================================"
 # Launch Prometheus 
 docker run -d \
   --name $PROM_CONTAINER \
-  -p 9090:9090 \
+  -p $PROM_PORT:9090 \
   -v "$(pwd)/monitoring:/etc/prometheus" \
   prom/prometheus
 
 # Launch Grafana
 docker run -d \
   --name $GRAF_CONTAINER \
-  -p 3000:3000 \
+  -p $GRAF_PORT:3000 \
   grafana/grafana
 
-echo "✅ Monitoring stack is up at http://localhost:9090 and http://localhost:3000"
+echo "✅ Monitoring stack is up at http://localhost:$PROM_PORT and http://localhost:$GRAF_PORT"
 
 echo "================================================================"
 echo "🔥 STEP 3: Launching Triton Inference Server"
@@ -61,9 +73,9 @@ fi
 docker run \
   --name $NAME \
   $GPU_FLAG \
-  -p 8000:8000 \
-  -p 8001:8001 \
-  -p 8002:8002 \
+  -p $HTTP_PORT:8000 \
+  -p $GRPC_PORT:8001 \
+  -p $METRICS_PORT:8002 \
   -v "$MODEL_REPOSITORY:/models" \
   $NAME \
   --model-repository=/models \
